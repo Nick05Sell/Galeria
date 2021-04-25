@@ -142,3 +142,11 @@ footer p {
     margin-bottom:10px;
     cursor:default;
 }
+
+@media screen and (max-width:400px){
+    .menu li {
+        display:flex;
+        justify-content: center;
+        width:100%;
+    }
+}
